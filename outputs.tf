@@ -8,7 +8,7 @@ output "private_ip" {
   description = "private IP of the instance created"
 }
 
-output "instance_ip" {
-  value = aws_instance.this.instance_ip
+output "instance_id" {
+  value = aws_instance.this.id
   description = "instance IP of the instance created"
 }
